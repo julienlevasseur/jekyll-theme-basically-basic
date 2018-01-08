@@ -1,6 +1,6 @@
 ---
 title: "Load Balancing Strategies for Consul"
-excerpt: 
+excerpt: ""
 tags: 
     - consul
     - load-balancing

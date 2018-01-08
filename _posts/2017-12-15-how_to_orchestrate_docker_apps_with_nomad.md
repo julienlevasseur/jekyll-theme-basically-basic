@@ -1,6 +1,6 @@
 ---
 title: "How to orchestrate Docker Apps with Nomad"
-exerpt
+exerpt: ""
 tags: 
   - nomad
   - consul

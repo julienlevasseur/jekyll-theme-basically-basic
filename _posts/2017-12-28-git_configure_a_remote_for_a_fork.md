@@ -1,6 +1,6 @@
 ---
 title: "GIT - Configure a remote for a fork"
-excerpt:
+excerpt: ""
 tags: 
 	- git
 	- upstream
