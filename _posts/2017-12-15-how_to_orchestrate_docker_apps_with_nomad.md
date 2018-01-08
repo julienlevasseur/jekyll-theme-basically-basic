@@ -1,5 +1,5 @@
 ---
-title: How to orchestrate Docker Apps with Nomad
+title: "How to orchestrate Docker Apps with Nomad"
 exerpt
 tags: 
   - nomad

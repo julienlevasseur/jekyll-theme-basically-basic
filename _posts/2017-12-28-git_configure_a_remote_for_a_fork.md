@@ -1,5 +1,5 @@
 ---
-title: GIT - Configure a remote for a fork
+title: "GIT - Configure a remote for a fork"
 excerpt:
 tags: 
 	- git

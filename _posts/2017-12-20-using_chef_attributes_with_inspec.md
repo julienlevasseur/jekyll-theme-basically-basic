@@ -1,5 +1,5 @@
 ---
-title: Using Chef attributes in Inspec
+title: "Using Chef attributes in Inspec"
 excerpt:
 tags: 
   - chef

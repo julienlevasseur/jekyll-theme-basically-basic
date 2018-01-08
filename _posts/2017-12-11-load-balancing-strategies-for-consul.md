@@ -1,5 +1,5 @@
 ---
-title: Load Balancing Strategies for Consul
+title: "Load Balancing Strategies for Consul"
 excerpt: 
 tags: 
     - consul
