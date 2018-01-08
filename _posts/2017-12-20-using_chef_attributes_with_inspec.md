@@ -1,6 +1,7 @@
 ---
 title: "Using Chef attributes in Inspec"
-excerpt: ""
+excerpt: "Using Chef attributes in Inspec"
+last_modified_at: 2018-12-20T17:16:23-05:00
 tags: 
   - chef
   - inspec

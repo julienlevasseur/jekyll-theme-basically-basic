@@ -1,6 +1,7 @@
 ---
 title: "GIT - Configure a remote for a fork"
-excerpt: ""
+excerpt: "GIT - Configure a remote and an upstream for a fork"
+last_modified_at: 2018-12-28T17:16:23-05:00
 tags: 
 	- git
 	- upstream
