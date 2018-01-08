@@ -3,8 +3,8 @@ title: "Load Balancing Strategies for Consul"
 excerpt: "Consul is a free and open source tool that provides service discovery, health checking, load balancing, and a globally distributed key-value store."
 last_modified_at: 2018-12-11T17:16:23-05:00
 tags: 
-    - consul
-    - load-balancing
+  - consul
+  - load-balancing
 ---
 
 Consul is a free and open source tool that provides service discovery, health checking, load balancing, and a globally distributed key-value store. Additionally, it provides a set of primitives for building orchestration workflows and tools. In microservice architectures, applications often run across many IP addresses and bind to a variety of ports. Service discovery aids in the process of finding these different services, regardless of where they are located.
