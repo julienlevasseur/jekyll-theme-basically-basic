@@ -37,7 +37,7 @@
         {
             "company": "Desjardins",
             "position": "Automation Specialist, Infrastructure as Code expert for Desjardins",
-            "website": "www.desjardins.com",
+            "website": "https://www.desjardins.com",
             "startDate": "2017-08",
             "endDate": "2017-11, Montréal (Canada)",
             "summary": "",
@@ -49,7 +49,7 @@
         {
             "company": "PBSC",
             "position": "AWS & Virtualisation Specialist",
-            "website": "www.pbsc.com",
+            "website": "https://www.pbsc.com",
             "startDate": "2016-10",
             "endDate": "2017-08, Longueuil (Canada)",
             "summary": "",

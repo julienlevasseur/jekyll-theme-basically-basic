@@ -18,7 +18,7 @@ title: Julien Levasseur
 email: contact@julienlevasseur.ca
 description:
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: jekyll.julienlevasseur.ca
+url: https://jekyll.julienlevasseur.ca
 author:
   name: Julien Levasseur
   twitter:
