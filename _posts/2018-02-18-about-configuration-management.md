@@ -41,12 +41,17 @@ The right set of configuration can be tagged and this revision put in the orches
 
 ![image_01](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/post-2018-02-18-about-configuration-management/assets/images/posts/2018-02-18-about-configuration-management/image_01.png?raw=true)
 
-The builded artifact is a container that embed the code, the configuration and is versionned for the association of both
+The builded artifact is a container that embed the code, the configuration and is versionned for the association of both.
+
 This is the most reliable solution for production envs and continuous delivery.
 
 It's less flexible than the first solution, but produce reliable artifacts ready to use and autonomous (eg: it doesn't require a consul and a vault in the production infrastructure).
 
 With this approach, we use a basic image to retrieve the code and associated configuration. The temporary container can be tested and builded of all required tests passed.
+
 The build gerenate a tagged artefact easy to track, thus whena bug will be discovered, it will be easier to know which version is in question (and so what is the code / config revisions pair causing the issue) and forensic and quality insurance can be made in shorter terms than retrieving the correct code revision, rebuilding the config state and providing a piece of infrastructure to host them.
 
 Off course, the artifact must be treated as a sensible piece of software as he certainly contain secrets. But privates registries can easily bring a solution to that concern.
+
+An example of pipeline for this approach can be:
+![pipeline_01.png](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/post-2018-02-18-about-configuration-management/assets/images/posts/2018-02-18-about-configuration-management/pipeline_01.png?raw=true
