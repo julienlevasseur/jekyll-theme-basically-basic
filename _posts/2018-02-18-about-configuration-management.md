@@ -49,7 +49,7 @@ It's less flexible than the first solution, but produce reliable artifacts ready
 
 With this approach, we use a basic image to retrieve the code and associated configuration. The temporary container can be tested and builded of all required tests passed.
 
-The build gerenate a tagged artefact easy to track, thus whena bug will be discovered, it will be easier to know which version is in question (and so what is the code / config revisions pair causing the issue) and forensic and quality insurance can be made in shorter terms than retrieving the correct code revision, rebuilding the config state and providing a piece of infrastructure to host them.
+The build gerenate a tagged artefact easy to track, thus when a bug will be discovered, it will be easier to know which version is in question (and so what is the code / config revisions pair causing the issue) and forensic and quality insurance can be made in shorter terms than retrieving the correct code revision, rebuilding the config state and providing a piece of infrastructure to host them.
 
 Off course, the artifact must be treated as a sensible piece of software as he certainly contain secrets. But privates registries can easily bring a solution to that concern.
 
