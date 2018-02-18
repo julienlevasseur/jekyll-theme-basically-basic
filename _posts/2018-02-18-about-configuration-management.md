@@ -54,4 +54,5 @@ The build gerenate a tagged artefact easy to track, thus whena bug will be disco
 Off course, the artifact must be treated as a sensible piece of software as he certainly contain secrets. But privates registries can easily bring a solution to that concern.
 
 An example of pipeline for this approach can be:
+
 ![pipeline_01.png](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/post-2018-02-18-about-configuration-management/assets/images/posts/2018-02-18-about-configuration-management/pipeline_01.png?raw=true
