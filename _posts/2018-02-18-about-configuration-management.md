@@ -55,4 +55,4 @@ Off course, the artifact must be treated as a sensible piece of software as he c
 
 An example of pipeline for this approach can be:
 
-![pipeline_01.png](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/post-2018-02-18-about-configuration-management/assets/images/posts/2018-02-18-about-configuration-management/pipeline_01.png?raw=true
+![pipeline_01](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/post-2018-02-18-about-configuration-management/assets/images/posts/2018-02-18-about-configuration-management/pipeline_01.png?raw=true)
