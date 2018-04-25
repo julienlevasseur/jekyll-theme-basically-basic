@@ -1,6 +1,6 @@
 ---
 layout: post
-title: serverless-job-scheduling-with-lambda
+title: serverless job scheduling with lambda
 description: 
 tags: [serverless scheduling lambda terraform]
 image:
