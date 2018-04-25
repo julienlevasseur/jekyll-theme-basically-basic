@@ -1,14 +1,13 @@
 ---
 layout: post
-title: serverless job scheduling with lambda
+title: Serverless job scheduling with AWS Lambda
 description: 
 tags: [serverless scheduling lambda terraform]
 image:
 ---
 
-We had recently the need to backup a Consul cluster deployed in Kubernetes.
-As the amount of cluster members may vary and there is no way to designate a snapshot manager in the cluster. In addition to the fact that, there is more logical to keep the Consul pods as lean as possible.
-We choose to delegate the Consul snapshot job to a serveless compute system.
+We recently had the need to backup a ![Consul](https://www.consul.io/) cluster deployed in ![Kubernetes](https://kubernetes.io/). Since the amount of cluster members may vary, there was no way to designate a snapshot manager in the cluster. We also found it more logical to keep the Consul pods as lean as possible.
+We choose to delegate the Consul snapshot job to a serverless compute system.
 
 ## The architecture
 
@@ -16,7 +15,7 @@ We choose to delegate the Consul snapshot job to a serveless compute system.
 
 ## Introduction
 
-AWS Lambda is a compute service that lets you run code without provisioning or managing servers. AWS Lambda executes your code only when needed and scales automatically.
+![AWS Lambda](https://aws.amazon.com/lambda/) is a compute service that lets you run code without provisioning or managing servers. AWS Lambda executes your code only when needed and scales automatically.
 It supports :
 
 * Node.js
@@ -25,9 +24,9 @@ It supports :
 * Go
 * Python
 
-This use case implement a Python code that make an HTTP request to the Consul API and pipe the result to S3.
+This use case implements a Python code that makes an HTTP request to the Consul API and pipe the result to S3.
 
-The idea is to have a code that is able to take the snapshot and store it into S3 and that is executed on a daily basis.
+The idea is to have a code that is able to take the snapshot, store it into S3 and that is executed on a daily basis.
 
 ## Backup.py
 
@@ -140,7 +139,7 @@ resource "aws_lambda_permission" "consul_snapshot_daily" {
 }
 ```
 
-Finally, above is the Lambda function definition, splitted in 4 Terraform resources :
+Finally, above is the Lambda function definition, split in 4 Terraform resources :
 
 1. The Lambda function itself that designate which zip archive will be used as function code container.
 2. The Cloudwatch event rule that is here a cronjob definition (can be a ![`rate`](https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html))
