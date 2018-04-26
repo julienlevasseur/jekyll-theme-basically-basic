@@ -11,7 +11,7 @@ We choose to delegate the Consul snapshot job to a serverless compute system.
 
 ## The architecture
 
-![terraform-module-esl-consul.png](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/master/images/2018-04-24-serverless-job-scheduling-with-lambda/terraform-module-esl-consul.png)
+![terraform-module-esl-consul.png](https://raw.githubusercontent.com/julienlevasseur/jekyll-theme-basically-basic/master/images/2018-04-24-serverless-job-scheduling-with-lambda/terraform-module-esl-consul.png)
 
 ## Introduction
 
@@ -150,7 +150,7 @@ Finally, above is the Lambda function definition, split in 4 Terraform resources
 
 After Terraformation, we obtain :
 
-![terraform-module-esl-consul.png](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/master/images/2018-04-24-serverless-job-scheduling-with-lambda/lambda_function_aw_console_view.png)
+![terraform-module-esl-consul.png](https://raw.githubusercontent.com/julienlevasseur/jekyll-theme-basically-basic/master/images/2018-04-24-serverless-job-scheduling-with-lambda/lambda_function_aw_console_view.png)
 
 
-![terraform-module-esl-consul.png](https://github.com/julienlevasseur/jekyll-theme-basically-basic/blob/master/images/2018-04-24-serverless-job-scheduling-with-lambda/lambda_function_s3_object.png)
+![terraform-module-esl-consul.png](https://raw.githubusercontent.com/julienlevasseur/jekyll-theme-basically-basic/master/images/2018-04-24-serverless-job-scheduling-with-lambda/lambda_function_s3_object.png)
