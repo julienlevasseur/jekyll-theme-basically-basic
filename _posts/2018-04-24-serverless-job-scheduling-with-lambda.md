@@ -154,3 +154,6 @@ After Terraformation, we obtain :
 
 
 ![terraform-module-esl-consul.png](https://raw.githubusercontent.com/julienlevasseur/jekyll-theme-basically-basic/master/images/2018-04-24-serverless-job-scheduling-with-lambda/lambda_function_s3_object.png)
+
+The first screenshot present the lambda function components.
+The second screenshot show the S3 object pushed to the bucket by the lambda function.

@@ -4,7 +4,6 @@
         "label": " Automatisation, Orchestration, Continuous Integration and Delivery Evangelist.",
         "picture": "",
         "email": "contact@julienlevasseur.ca",
-        "phone": "",
         "website": "https://www.julienlevasseur.ca",
         "summary": "",
         "location": {
@@ -19,6 +18,11 @@
                 "network": "Github",
                 "username": "julienlevasseur",
                 "url": "https://github.com/julienlevasseur"
+            },
+            {
+                "network": "Linkedin",
+                "username": "levasseur-julien-4bb5129",
+                "url": "https://www.linkedin.com/in/levasseur-julien-4bb5129/"
             }
         ]
     },
@@ -31,12 +35,17 @@
             "endDate": ", Montréal (Canada)",
             "summary": "",
             "highlights": [
-                "Participate in the DevOps team formation."
+                "DevOps team technical lead.",
+                "Evangelist of the DevOps culture for the R&D service.",
+                "Drive POC and architect solutions for: Infrastructure as Code, Immutable Infrastructure, Monitoring, Logging centralization",
+                "Setup a Kubernetes cluster for R&D service lab.",
+                "Teams training on different technical topics (Terraform, Nomad, KitchenCI, AWS).",
+                "Participation in the architecture of the Immutable Infrastructure initiative."
             ]
         },
         {
             "company": "Desjardins",
-            "position": "Automation Specialist, Infrastructure as Code expert for Desjardins",
+            "position": "Automation Specialist, Infrastructure as Code expert",
             "website": "https://www.desjardins.com",
             "startDate": "2017-08",
             "endDate": "2017-11, Montréal (Canada)",
@@ -54,12 +63,13 @@
             "endDate": "2017-08, Longueuil (Canada)",
             "summary": "",
             "highlights": [
-                "Deployment of a complete automation stack.",
+                "Deployment of a complete automation stack:",
                 "Infrastructure as Code (Terraform + custom python REST API)",
                 "Configuration Management (Chef + Consul)",
                 "Runbook & Jobs Automation (Rundeck + Terraform provisioners)",
                 "Monitoring Automation (Filebeat + Metricbeat + ES + Kibana + Zabbix)",
                 "Chef cookbooks development.",
+                "Participation in the design of email/sms management MicroService (Sping Boot)"
             ]
         },
         {
@@ -176,25 +186,6 @@
         },
     ],
     "skills": [
-        {
-            "name": "Chef",
-            "level": "Master"
-        },
-        {
-            "name": "Terraform",
-            "level": "Master"
-        },
-        {
-            "name": "Ansible",
-            "level": "Satisfactory"
-        },
-        {
-            "name": "Docker",
-            "level": "Satisfactory"
-        },
-        {
-            "name": "LXC",
-            "level": "Satisfactory"
-        }
+
     ]
 }
