@@ -157,3 +157,9 @@ After Terraformation, we obtain :
 
 The first screenshot present the lambda function components.
 The second screenshot show the S3 object pushed to the bucket by the lambda function.
+
+## Conclusion
+
+This little post demonstrate how to solve problems when it comes to find a way to execute backups on elastic cluster but also how to keep services clean by externalizing tasks scheduling on serverless compute.
+
+It can be more efficient to choose a serverless solution for simple scheduling or small processing rather than pay for an underused instance that has to be managed.
